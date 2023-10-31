@@ -5,4 +5,4 @@ variable "cluster_name" {
 
 data "aws_availability_zones" "available" {
   state = "available"
-
+}
