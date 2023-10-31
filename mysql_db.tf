@@ -12,7 +12,7 @@ resource "aws_db_instance" "mysql_db" {
   username             = "db_username"
   password             = "db_password"
   parameter_group_name = "default.mysql5.7"
-  
+
   # Security group and subnet group for VPC
   vpc_security_group_ids = [aws_security_group.mysql_db.id]
   subnet_group_name     = aws_db_subnet_group.mysql_db_subnet_group.name
