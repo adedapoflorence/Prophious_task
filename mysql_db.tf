@@ -35,5 +35,5 @@ resource "aws_db_subnet_group" "mysql_db_subnet_group" {
   name       = "mysql-db-subnet-group"
   description = "Subnet group for MySQL database"
   
-  subnet_ids = ["subnet-ID_1", "subnet-ID_2"]  # Specify your subnet IDs
+  subnet_ids = ["subnet-ID_1", "subnet-ID_2"]
 }
